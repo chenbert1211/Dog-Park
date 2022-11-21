@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Navbar from './Navbar'
+import Map from './Component'
 
 export default function Home() {
   return (
@@ -10,11 +12,11 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+       Dog Park
         </h1>
-
+        <Map/>
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Get started by eting <code>pages/index.js</code>
         </p>
 
         <div className="grid">
@@ -32,7 +34,7 @@ export default function Home() {
             href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
           >
-            <h3>Examples &rarr;</h3>
+            <h3>Examples asdasda &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
